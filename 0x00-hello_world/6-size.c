@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints the size of various types
@@ -13,4 +13,3 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 }
-
