@@ -11,6 +11,7 @@ size_t print_listint(const listint_t *h)
 {
 	size_t nodeC = 1;
 
+        /* return 0 as number of nodes when h is null*/
 	if (h == NULL)
 		return (0);
 
